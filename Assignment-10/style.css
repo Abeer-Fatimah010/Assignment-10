@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+
+.parent {
+  width: 280px;
+  height: 100vh;
+  background: #012a93;
+  color: white;
+  padding: 40px 20px;
+  position: fixed;
+}
+img {
+     width: 100px ;
+    border-radius: 50%;
+    
+}
+
+.parent h1 {
+  font-size: 28px;
+}
+
+.parent h1 span {
+  color: #cd1aec;
+}
+
+.role {
+  margin: 10px 0 30px;
+  font-size: 14px;
+}
+
+.parent nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 12px 0;
+  font-size: 17px;
+  align: center;
+  transition: 0.3s;
+}
+
+
+
+.parent nav a:hover {
+  color: #cd1aec;
+}
+
+.main {
+  margin-left: 280px;
+  padding: 40px;
+  width: 100%;
+}
+.icons {
+ color: #cd1aec;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #012a93;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #012a93;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.card {
+  background: #f5f5f5;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 5px solid #012a93;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+h3{
+  color: #012a93;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #012a93;
+  display: inline-block;
+  padding-bottom: 5px;
+}
